@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+        form {
+            display: inline-flex;
+            flex-direction: column;
+            width: 400px;
+        }
+        label {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" class="form" id="form">
+        <label>
+            Name: 
+            <input type="text" name="name" value="Ajax">
+        </label>
+        <label>
+            Age:
+            <input type="number" name="age" value="30">
+        </label>
+        <label>
+            Confirm terms of service:
+            <input type="radio" name="license">
+        </label>
+        <label>
+            Plan:
+            <select name="plan">
+                <option value="free" selected>free</option>
+                <option value="simple">simple</option>
+                <option value="pro">pro</option>
+            </select>
+        </label>
+        <button>Submit</button>
+    </form>
+    
+
+    <script src="./v6.js" type="module"></script>
+</body>
+</html>
